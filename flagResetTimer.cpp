@@ -114,14 +114,12 @@ void flagResetTimerHandler::Event(bz_EventData *eventData)
   						if(bz_flagPlayer(i)==-1)
       						bz_resetFlag(i);
   					}
-  					bz_sendTextMessage(BZ_SERVER,BZ_ALLUSERS,"Team flags not reset");
 				}
 				else{
 					for(unsigned int i = 0; i < bz_getNumFlags(); i++){
   						if(bz_flagPlayer(i)==-1)
       						bz_resetFlag(i);
   					}
-  					bz_sendTextMessage(BZ_SERVER,BZ_ALLUSERS,"Team flags reset");
 				}
 				nextReset = bz_getCurrentTime()+timeLimitSeconds;
 			}
