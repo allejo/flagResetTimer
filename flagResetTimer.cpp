@@ -1,5 +1,5 @@
 /*
-Copyright (c) 2011 Vladimir Jimenez
+Copyright (c) 2012 Vladimir Jimenez
 All rights reserved.
 
 Redistribution and use in source and binary forms, with or without
@@ -31,8 +31,8 @@ Vladimir Jimenez (allejo)
 
 Description:
 Plugin will reset all unused flags except for team flags on a CTF map after a
-certain amount of seconds.Plugin will also reset all unused flags except on a
-FFA map after a certain amount of seconds. Plugin has one paramter when being
+certain amount of seconds. Plugin will also reset all unused flags except on a
+FFA map after a certain amount of seconds. Plugin has one parameter when being
 loaded.
  
 -loadplugin /path/to/flagResetTimer.so,<time in minutes>
